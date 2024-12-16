@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Montserrat;
+}
+
+#nav-section{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: sticky;
+    top: 0px;
+}
+
+#nav-section h1{
+    font-family: Montserrat;
+    color: antiquewhite;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    /* text-align: center; */
+    margin: 20px;
+    padding: 10px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: antiquewhite;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover{
+    color:white
+}
+
+#image2{
+    background-color: #f8f8f8;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 35px;
+}
+
+
+
+#video{
+    width: 100%;
+    height: 580px;
+    /* height:100px; */
+    /* padding: 10px; */
+    padding-left: 75px;
+    background-color:#f8f8f8 ;
+    border-radius: 10%;
+    margin: 65px;
+}
+
+#video table{
+
+    /* text-align: center; */
+
+}
+
+#address .row{
+    width: 100%;
+    height: 650px;
+    margin-top: 190px;
+    background-color:#f8f8f8 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#address .col{
+    width: 50px;
+    height: 450px;
+    /* margin-top: 75px; */
+    
+    /* padding-top: 30px; */
+    
+    border-radius: 10%;
+    /* border: solid 1px ; */
+}
+
+#address .col img{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 2.5px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+#collections{
+    background-color:#f8f8f8 ;
+    height: 600px;
+}
+
+#collections h1{
+
+    
+    text-align: center;
+
+}
+
+#collections button{
+    border-radius: 30%;
+    width: 90px;
+    height: 40px;
+    border: 1px solid;
+    margin-inline: 35px;
+    margin-top: 30px;
+   
+ 
+}
+
+#collections button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#collections .col{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    /* border: 2px solid; */
+    float:left;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#collections #col1{
+    
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTI2RBby59JxxvXj_wUsRTnmZ9A1kW62zMU49oUZ-nDSb8SFrcZKuQFXKCP77UZoWgiFmTSgVpLGF0iwfKKseFX6vGzwXz0bmZ7T4nv1gNBB0f7jFFIl_jCqrflJyYZEDeKkgyJPrfC6JbgeGyN4c0eVJPPCUgUqVAF1EWtvFi0MnYZAd27ySglO6eMQ/s2400/Maria-B-Lawn-Collection-2021-Best-Pakistani-Designer-Summer-Dresses-2.jpg);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+
+}
+
+#collections #col1:hover{
+    
+    background: url(https://www.stylesgap.com/wp-content/uploads/2021/03/Origins-Latest-Eid-Dresses-Festive-Collection-10-1024x1536.jpg);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+
+}
+
+#collections #col2{
+    background: url(https://slimages.macysassets.com/is/image/MCY/products/5/optimized/21220325_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+}
+
+#collections #col2:hover{
+    background: url(https://i.pinimg.com/originals/90/39/ee/9039eee5634f9f7aeacbd8105898039c.png);
+    width: 350px;
+    height: 450px;
+   background-size: cover;
+}
+
+#collections #col3{
+    background: url(https://i.pinimg.com/originals/d7/04/e0/d704e0390ba42ee9c580849ab2b9b639.jpg);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+}
+
+#collections #col3:hover{
+    background: url(http://nitrolicious.com/wp-content/uploads/2016/02/Men-Look-2.jpg);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+}
+
+#collections #col4{
+    background: url(https://i.pinimg.com/originals/12/ee/f3/12eef3f4bf562ad13c5a6c65aaadf94a.jpg);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+}
+
+#collections #col4:hover{
+    background: url(https://www.liveenhanced.com/wp-content/uploads/2020/07/fashion-trend-for-kid-11.jpg);
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+}
+
+
+#brands h1{
+
+    text-align: center;
+    margin-top: 100px;
+    
+    
+   
+
+
+}
+
+#brands .gif{
+    background-color: rgb(150, 166, 184);
+    text-align: center;
+    margin: 30px;
+    width: 100%;
+}
+#brands h2,h4{
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+    
+    
+   
+
+}
+
+
+
+#brands img{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    font-family: Montserrat;
+    
+}
+
+#footer h1{
+    color: antiquewhite;
+    font-size: x-large;
+    
+}
+
+#footer h1 sub{
+    font-size: small;
+    
+   
+}
+
+#footer ul li{
+    list-style: none;
+    align-items: center;
+    margin: 15px;
+
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: larger;
+   
+}
+#footer ul li a:hover{
+
+    color: white;
+
+    
+}
+
+#footer #socialmedia{
+    float: right;
+    color: antiquewhite;
+    margin-top: -250px;
+    margin-right: 30px;
+
+}
+
+#footer #socialmedia h5{
+    letter-spacing: 5px;
+}
+
+#footer h1 img{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
